@@ -8,3 +8,10 @@ for(let i=0; i<emailslist.length; i++){
     check = true
   }
 }
+
+if( check === true){
+  console.log('email trovata')
+}
+else{
+  console.log('email non trovata')
+}
