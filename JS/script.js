@@ -20,3 +20,13 @@ else{
 
 const pcnumber = Math.floor(Math.random() * 6) + 1;
 const usernumber = Math.floor(Math.random() * 6) + 1;
+
+if(pcnumber > use){
+  console.log(`Numero pc : ${pcnumber}, numero utente: ${usernumber}. Ha vinto il pc`)
+}
+else if(pcnumber < usernumber){
+  console.log(`Numero pc ${pcnumber}, numero utente: ${usernumber}. Hai vinto`)
+}
+else{
+  console.log('pareggio')
+}
