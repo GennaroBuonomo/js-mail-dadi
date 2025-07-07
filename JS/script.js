@@ -15,3 +15,8 @@ if( check === true){
 else{
   console.log('email non trovata')
 }
+
+// Gioco dei Dati
+
+const pcnumber = Math.floor(Math.random() * 6) + 1;
+const usernumber = Math.floor(Math.random() * 6) + 1;
